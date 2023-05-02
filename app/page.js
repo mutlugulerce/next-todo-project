@@ -1,13 +1,16 @@
-import AddNewTodo from "./add-new-todo"
-import ToDoList from "./todo-list"
+import AddNewTodo from "./add-new-todo";
+import TodoList from "./todo-list";
 
-const Page = () => {
+export default function Page() {
   return (
-    <div>
-<AddNewTodo />
-<ToDoList />
+    <div >
+      
+      
+    
+      <AddNewTodo />
+      <TodoList />
+      
+     
     </div>
-  )
+  );
 }
-
-export default Page
